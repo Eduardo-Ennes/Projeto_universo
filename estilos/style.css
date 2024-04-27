@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+*{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0px;
+    margin: 0px;
+}
+
+body, html{
+    width: 100vw;
+    height: 100vh;
+    background: black url('../imagens/pexels-philippe-serrand-337910945-19387100.jpg') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+section{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    background-color: aliceblue;
+    width: 280px;
+    height: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.534);
+}
+
+section > div#foto{
+    display: block;
+    background: black url(../imagens/pexels-zch-2791918-12498805.jpg) top center no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 200px;
+}
+
+section > div#formulario{
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
+
+div#formulario > h1{
+    margin-bottom: 15px;
+
+}
+
+div#formulario > p{
+    font-size: 0.8em;
+}
+
+form{
+    margin: 15px;
+}
+
+div#campo{
+    margin-top: 8px;
+}
+
+input{
+    width: 192px;
+    height: 20px;
+}
+
+input#iemail{
+    transform: translateY(-10px);
+}
+
+input#isenha{
+    transform: translateY(-8px);
+}
+
+input#botao{
+    width: 50%;
+    height: 25px;
+    margin-top: 10px;
+}
+
+ul#final{
+    font-size: 0.8em;
+    margin-top: 10px;
+    list-style-type: none;
+}
+
+ul#final > li{
+    line-height: 30px;
+}
+
+a#link{
+    text-decoration: none;
+    color: blue;
+}
+
+a#link:hover{
+    text-decoration: underline;
+}
